@@ -11,6 +11,9 @@ app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data
 app.use(express.json());
 
+// middleware that instructs server to make certain files readily available and not gated behind server endpoint
+app.use(express.static('public'));
+
 function filterByQuery(query, animalsArray) {
     let personalityTraitsArray = [];
     let filteredResults = animalsArray;
@@ -111,6 +114,12 @@ app.post('/api/animals/', (req, res) => {
         const animal = createNewAnimal(req.body, animals);
         res.json(animal);
     }
+});
+
+// gets index.html to be served from Express.js server
+// '/' find file on root of server and send to client
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
 app.listen(PORT, () => {
