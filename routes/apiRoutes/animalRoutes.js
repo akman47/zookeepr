@@ -21,7 +21,7 @@ router.get('/animals/:id', (req, res) => {
     }
 });
 
-router.post('/animals/', (req, res) => {
+router.post('/animals', (req, res) => {
     // req.body is where incoming content will be
     // console.log(req.body);
     

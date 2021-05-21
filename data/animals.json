@@ -128,6 +128,36 @@
         "goofy"
       ],
       "id": "12"
+    },
+    {
+      "name": "Salzy",
+      "species": "Hippo",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry",
+        "zany"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "Inchy",
+      "species": "Worm",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry",
+        "anxious"
+      ],
+      "id": "14"
+    },
+    {
+      "name": "Keroppi",
+      "species": "Frog",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "zany",
+        "loving"
+      ],
+      "id": "15"
     }
   ]
 }
