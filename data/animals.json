@@ -158,6 +158,22 @@
         "loving"
       ],
       "id": "15"
+    },
+    {
+      "name": "Leap",
+      "species": "Frog",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "16"
+    },
+    {
+      "name": "Leap",
+      "species": "3",
+      "diet": "herbivore",
+      "personalityTraits": [],
+      "id": "17"
     }
   ]
 }

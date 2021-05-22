@@ -65,6 +65,12 @@
       "age": 38,
       "favoriteAnimal": "bear",
       "id": "10"
+    },
+    {
+      "name": "Mosey",
+      "age": 3,
+      "favoriteAnimal": "Bear",
+      "id": "11"
     }
   ]
 }

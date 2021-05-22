@@ -54,9 +54,9 @@ const handleZookeeperFormSubmit = event => {
   // get zookeeper info and organize it
   const name = $zookeeperForm.querySelector('[name="zookeeper-name"]').value;
   const age = parseInt($zookeeperForm.querySelector('[name="age"]').value);
-  const critter = $zookeeperForm.querySelector('[name="favorite-animal"]').value;
+  const favoriteAnimal = $zookeeperForm.querySelector('[name="favorite-animal"]').value;
  
-  const zookeeperObject = { name, age, critter };
+  const zookeeperObject = { name, age, favoriteAnimal };
   console.log(zookeeperObject);
 
   // send new data to /api/zookeepers POST endpoint
