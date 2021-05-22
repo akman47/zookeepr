@@ -28,7 +28,6 @@ const handleAnimalFormSubmit = event => {
   const animalObject = { name, species, diet, personalityTraits };
 
   // send new data to /api/animals POST endpoint
-  debugger;
   fetch('/api/animals', {
     method: 'POST',
     headers: {
@@ -61,7 +60,6 @@ const handleZookeeperFormSubmit = event => {
   console.log(zookeeperObject);
 
   // send new data to /api/zookeepers POST endpoint
-  debugger;
   fetch('/api/zookeepers', {
     method: 'POST',
     headers: {
